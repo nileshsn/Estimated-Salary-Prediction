@@ -24,10 +24,10 @@ This project predicts estimated salaries based on job-related data such as job t
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/nileshsn/Estimated-Salary-Prediction.git
-   cd Estimated-Salary-Prediction
-   ```
+```bash
+git clone https://github.com/nileshsn/Estimated-Salary-Prediction.git
+cd Estimated-Salary-Prediction
+```
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
