@@ -1,34 +1,64 @@
-# Estimated Salary Prediction using ANN and Streamlit
+# Estimated Salary Prediction
 
-This repository contains a Streamlit web application that predicts estimated salary using a pre-trained Artificial Neural Network (ANN) model. The application allows users to input specific details and receive predictions of estimated salary based on various features.
+This project is an implementation of a salary prediction model based on various job-related features. The goal is to estimate the expected salary for a job role using machine learning techniques. The model is deployed using **Streamlit**.
 
-## Features
+## Deployed Preview
 
-- **Real-time Predictions**: Enter details to get immediate predictions of estimated salary.
-- **Interactive UI**: User-friendly interface built with Streamlit.
-- **Pre-trained Model**: Utilizes a trained ANN model (`regression_model.h5`) for predictions.
-- **Data Preprocessing**: Consistent preprocessing using saved encoders and scalers (`.pkl` files).
+Check out the live preview of the project here: [Estimated Salary Prediction App](https://estimated-salary-prediction-bysojp2c8sckgufndgxnbr.streamlit.app/)
 
-## Live Demo
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Model](#model)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Check out the live demo of the application:  
-[Estimated Salary Prediction App](https://estimated-salary-prediction-bysojp2c8sckgufndgxnbr.streamlit.app/)
+## Overview
 
-## Getting Started
+This project predicts estimated salaries based on job-related data such as job title, experience level, and more. It uses machine learning models to perform regression analysis and provide the expected salary range. The model is trained on historical job data and offers predictions based on new input.
 
-### Prerequisites
+## Installation
 
-- Python 3.7+
-- Required Python libraries:
-  - `streamlit`
-  - `numpy`
-  - `tensorflow`
-  - `scikit-learn`
-  - `pandas`
+To run this project locally, follow these steps:
 
-### Installation
-
-1. **Clone the repository**:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/estimated-salary-prediction.git
-   cd estimated-salary-prediction
+   git clone https://github.com/nileshsn/Estimated-Salary-Prediction.git
+   cd Estimated-Salary-Prediction
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+
+3. Run the Streamlit app:
+```bash
+streamlit run app.py
+
+## Usage
+
+- Navigate to the deployed app link or run the app locally.
+- Enter job-related details like job title, experience, etc., and the model will predict the estimated salary for the provided information.
+
+## Model
+
+The model is built using machine learning techniques. It was trained on a dataset containing various features related to job roles and salaries. The model uses regression algorithms to estimate the salary for a given set of job-related features.
+
+## Deployment
+
+The app is deployed using Streamlit Cloud. You can check the live preview at the following link: [Estimated Salary Prediction App](https://estimated-salary-prediction-bysojp2c8sckgufndgxnbr.streamlit.app/)
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+- Fork the repository
+- Create your feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a pull request
+
+## License
+
+Distributed under the MIT License. See [LICENSE](#license) for more information.
+
