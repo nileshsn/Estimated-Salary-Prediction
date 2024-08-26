@@ -27,14 +27,15 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/nileshsn/Estimated-Salary-Prediction.git
    cd Estimated-Salary-Prediction
+   ```
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 3. Run the Streamlit app:
 ```bash
 streamlit run app.py
-
+```
 ## Usage
 
 - Navigate to the deployed app link or run the app locally.
